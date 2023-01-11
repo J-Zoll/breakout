@@ -11,6 +11,35 @@
 </head>
 
 <body>
+    <div class="start-screen" id="start-screen-mobile">
+        <h1>Breakout</h1>
+        <div class="rules">
+            <h3>How to play?</h3>
+            <p>1. Rotate your phone to landscape mode.</p>
+            <p>2. Control the paddle by tilting your device.</p>
+            <p>3. Break all the bricks by shooting them with the ball.</p>
+            <p>4. Don't let the ball fall to the ground.</p>
+        </div>
+        <button id="start-button" class="btn btn-danger">Start</button>
+    </div>
+    <div class="start-screen" id="start-screen-desktop">
+        <h1>Breakout</h1>
+        <div class="rules">
+            <h3>How to play?</h3>
+            <p>1. Control the paddle with the left and right arrow keys.</p>
+            <p>2. Break all the bricks by shooting them with the ball.</p>
+            <p>3. Don't let the ball fall to the ground.</p>
+        </div>
+        <button id="start-button" class="btn btn-danger">Start</button>
+    </div>
+    <div id="game-over-screen">
+        <h1>Game Over</h1>
+        <button id="play-again-button" class="btn btn-danger">Play Again</button>
+    </div>
+    <div id="victory-screen">
+        <h1>Victory</h1>
+        <button id="play-again-button" class="btn btn-danger">Play Again</button>
+    </div>
     <canvas id="canvas"></canvas>
 
 

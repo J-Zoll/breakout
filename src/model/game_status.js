@@ -1,5 +1,6 @@
 export class GameStatus {
-    static RUNNING = 0;
-    static VICTORY = 1;
-    static GAME_OVER = 2;
+    static STARTING = 0;
+    static RUNNING = 1;
+    static VICTORY = 2;
+    static GAME_OVER = 3;
 }

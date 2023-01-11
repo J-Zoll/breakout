@@ -8,3 +8,51 @@ html {
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+.start-screen>h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.start-screen>.rules {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.start-screen>button {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+#start-screen-desktop {
+    margin-top: 20%;
+}
+
+#game-over-screen>h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 10vh;
+    margin-top: 35vh;
+}
+
+#game-over-screen>button {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+#victory-screen>h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 10vh;
+    margin-top: 35vh;
+}
+
+#victory-screen>button {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
